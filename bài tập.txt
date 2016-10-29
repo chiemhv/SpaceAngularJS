@@ -1,0 +1,87 @@
+########## NHÓM BÀI TẬP VỀ XỬ LÝ GIAO DIỆN
+B1: cài đặt angular, hiển thị biến giao diện hello 
+
+B2: cho biến hello ="hello " từ controller , hiển thị nó ra ngoài view 
+-> tạo 1 app angular tên là "myApp"
+-> tạo 1 controller là "showController", trong đó tạo các function, hiển thị biến ra ngoài 
+
+B3: cho 1 mảng dữ liệu từ controller , hiển thị mảng đó ra ngoài view 
+-> tạo 1 app là "myApp"
+-> controller là : showController 
+-> biến trong controller là : học sinh ( tên, tuổi, quê quán, điểm )
+=> hiển thị ra ngoài view 
+
+B4: tạo text field để nhập tên, button "show", khi nhâp tên và click vào show -> hiển thị tên phía dưới. 
+-> tạo app : myApp 
+-> tạo controller : nameController
+-> tạo model : name 
+-> tạo hàm click : show 
+=> khi click vào button thì hiển thị tên phía dưới 
+
+
+B5: Tạo 1 trang login 
+yêu cầu có các kiểu nhập . 
+-> text field 
+-> radio
+-> check box 
+-> text area
+yêu cầu như bài 4
+=> khi click vào button thì sẽ hiển thị nội dung vừa nhập 
+
+B6: tạo 1 hộp nhập tờ khai đăng ký bất kỳ 
+yêu cầu có các kiểu nhập . 
+-> text field 
+-> radio
+-> check box 
+-> text area
+yêu cầu như bài 4
+=> khi click vào button thì sẽ hiển thị nội dung vừa nhập 
+
+B7: tạo 1 hoá đơn bất kỳ 
+yêu cầu có các kiểu nhập . 
+-> text field 
+-> radio
+-> check box 
+-> text area
+yêu cầu kiểu dữ liệu :
+-> text
+-> số tiền 
+-> thòi gian 
+
+=> khi click vào button thì sẽ hiển thị nội dung vừa nhập
+theo định dạng yêu cầu . 
+
+B8: tạo 1 trang input
+yêu cầu có các kiểu nhập . 
+-> text field 
+-> radio
+-> check box 
+-> text area
+yêu cầu kiểu dữ liệu :
+-> text
+-> số tiền 
+-> thòi gian 
+
+=> khi click vào button thì sẽ hiển thị nội dung vừa nhập
+theo định dạng yêu cầu .
+
+B9: tạo 1 trang đăng nhập, 
+yêu cầu validate dữ liệu 
+
+=> click vào button thì hiển thị nội dung vừa nhập 
+- yêu cầu validate dữ liệu, 
+
+B10: tạo 1 trang đăng ký 
+-> đầy đủ các kiểu dữ liệu 
+=> click vào button thì hiển thị nội dung vừa nhập 
+- yêu cầu validate dữ liệu, 
+
+###############
+
+
+
+
+
+
+
+

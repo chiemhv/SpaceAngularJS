@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script language="javascript" src="components/angular.min.js"></script>
+	<script language="javascript" src="scripts/main.js"></script>
+</head>
+<body ng-app="ex4">
+<div ng-controller="showController">
+	<ul>
+		<li ng-repeat="student in students"> {{$index +1}}{{" : "}}{{student.name}}</li>
+	</ul>
+</div>
+</body>
+</html>

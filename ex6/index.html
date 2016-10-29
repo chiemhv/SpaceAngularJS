@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script language="javascript" src="components/angular.min.js"></script>
+	<script language="javascript" src="scripts/main.js"></script>
+</head>
+<body ng-app="ex6">
+	<div ng-controller="showController">
+		Nhập truyện ngắn của bạn vào đây : <br>
+		<textarea name="sub" ng-model="dauVao"></textarea> <br>
+		<input type="button" name="submit" ng-click="submit()" value="gửi bài cho toà soạn">
+		<br>
+		{{dauVao}}
+	</div>
+</body>
+</html>
